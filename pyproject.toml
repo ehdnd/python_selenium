@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "python-selenium"
+version = "0.1.0"
+description = "NomadCoders Python Selenium"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+selenium = "^4.23.0"
+webdriver-manager = "^4.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
